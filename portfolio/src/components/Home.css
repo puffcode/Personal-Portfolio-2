@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+.home {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.home-content {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.home-text {
+  max-width: 60%;
+}
+
+.home-name {
+  font-size: 5.5rem;
+  font-weight: 700;
+  margin: 0;
+  color: #3f5ffc;
+}
+
+.home-email {
+  font-size: 1rem;
+  color: #555;
+  margin: 0.5rem 0;
+}
+
+.home-intro {
+  font-size: 1.4rem;
+  color: #5498ff;
+}
+
+.home-image .profile-pic {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ddd;
+}
